@@ -5,6 +5,8 @@
 * CSS Flexbox
 * CSS Grid 
 * CSS Positioning
-* And some amazing CSS tricks are used.
+* The shapes are responsive on small screens thanks to CSS Media Queries.
 
-# The shapes are responsive on small screens thanks to CSS Media Queries.
+# And amazing CSS tricks are used.
+
+
