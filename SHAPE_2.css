@@ -1,0 +1,35 @@
+/* ----------------------- SHAPE 2 ----------------------- */
+
+.shape-2{
+    background: #e97676;
+}
+.shape-2 div{
+    width: 8rem;
+    height: 10rem;
+    background: #060f55;
+    border-radius: 0 0 4rem 4rem;
+    display: flex;
+}
+
+.shape-2 div span{
+    width: 100%;
+    height: 7rem;
+    background: #e97676;
+    transform: translateY(-0.5rem);
+    border-radius: 1rem;
+    margin-top: -3rem;
+}
+
+.shape-2 div span:nth-child(odd){
+    background: #060f55;
+}
+
+.shape-2::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    min-height: 15rem;
+    background: #060f55;
+    bottom: 0;
+    left: calc(50% - 0.5rem); /* 50% of the width of the div (Place it in the center)*/
+}
