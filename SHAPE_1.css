@@ -1,0 +1,33 @@
+
+/* ----------------------- SHAPE 1 ----------------------- */
+.shape-1{
+    background: #6592cf;
+}
+
+.shape-1 span:nth-child(1){
+    width: 12rem;
+    height: 6rem;
+    background: #243d83;
+    position: absolute;
+}
+
+.shape-1 span:nth-child(2){
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: #243d83;
+    /* The magic started here */
+    border: 2rem solid #6592cf; 
+    z-index: 1;
+}
+
+.shape-1 span:nth-child(3){
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #eeb850;
+    /* The magic started here */
+    z-index: 2;
+    position: absolute;
+}
+
