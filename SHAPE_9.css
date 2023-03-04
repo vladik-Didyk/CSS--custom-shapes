@@ -1,0 +1,35 @@
+/* ----------------------- SHAPE 9 ----------------------- */
+
+.shape-9 {
+    background: #293462;
+}
+
+.shape-9 span {
+    width: 12rem;
+    height: 12rem;
+    background: #fff1c1;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape-9 span::before {
+    content: "";
+    width: 6rem;
+    height: 6rem;
+    background: #fe5f55;
+    position: absolute;
+    bottom: -3rem;
+    transform: rotate(45deg);
+}
+
+.shape-9 span::after {
+    content: "";
+    width: 9rem;
+    height: 9rem;
+    background: #fe5f55;
+    position: absolute;
+    bottom: -3rem;
+    right: -1rem;
+    transform: rotate(45deg);
+}
