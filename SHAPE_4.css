@@ -1,0 +1,51 @@
+/* ----------------------- SHAPE 4 ----------------------- */
+
+.shape-4{
+    background: #0b2429;
+    flex-direction: column;
+}
+
+.shape-4 span:nth-child(1){
+    width: 8rem;
+    height: 8rem;
+    background: #998235;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.shape-4 span:nth-child(1)::before,
+.shape-4 span:nth-child(1)::after{
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    background: #998235;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.shape-4 span:nth-child(1)::before{
+    left: -0.8rem;
+}
+
+.shape-4 span:nth-child(1)::after{
+    right: -0.8rem;
+}
+
+.shape-4 span:nth-child(2){
+    width: 7rem;
+    height: 7rem;
+    background: #f3ac3c;
+    position: absolute;
+    border: 0.8rem solid #0b2429;
+    border-radius: 50%;
+}
+
+.shape-4 span:nth-child(3){
+    width: 2rem;
+    height: 2rem;
+    background: #0b2429;
+    position: absolute;
+    border-radius: 50%;
+}
