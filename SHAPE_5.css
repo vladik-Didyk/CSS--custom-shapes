@@ -1,0 +1,43 @@
+/* ----------------------- SHAPE 5 ----------------------- */
+
+.shape-5{
+    background: #191919;
+    flex-direction: column;
+}
+
+.shape-5 div{
+    width: 8rem;
+    height: 12rem;
+    background: #4f77ff;
+    border-radius: 4rem 4rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 02.rem;
+    position: relative;
+}
+
+
+.shape-5 div span{
+    background: #191919;
+    height: 1rem;
+    width: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shape-5 div span:nth-child(1){
+    width: 2.4rem;
+    margin-bottom: 3.3rem;
+}
+.shape-5 div span:nth-child(2){
+    width: 3.8rem;
+    margin-bottom: 2.2rem;
+}
+.shape-5 div span:nth-child(3){
+    width: 5.4rem;
+    margin-bottom: 1.1rem;
+}
+.shape-5 div span:nth-child(4){
+    width: 6.6rem;
+}
