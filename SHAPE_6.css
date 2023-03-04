@@ -1,0 +1,31 @@
+/* ----------------------- SHAPE 6 ----------------------- */
+
+.shape-6{
+    background: #312222;
+    flex-direction: column;
+}
+
+.shape-6 span:nth-child(1){
+    width: 3rem;
+    height: 3rem;
+    background: #efa93b;
+    border-radius: 2rem 2rem  0rem 0rem;
+   margin: -1.2rem;
+}
+
+.shape-6 span:nth-child(2){
+    width: 8rem;
+    height: 8rem;
+    background: #e08027;
+    border-radius: 4rem 4rem 1rem 1rem;
+   z-index: 1;
+}
+
+.shape-6 span:nth-child(3){
+    width: 3rem;
+    height: 3rem;
+    background: #824b20;
+    border-radius: 0 0 2rem 2rem;
+    margin: -0.8rem;
+}
+
