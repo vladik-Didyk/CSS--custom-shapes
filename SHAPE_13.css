@@ -1,0 +1,70 @@
+/* ----------------------- SHAPE 12 ----------------------- */
+
+.shape-13 {
+    background: #f3ac3c;
+}
+
+.shape-13 div {
+    background: #998235;
+}
+
+
+.shape-13 div:first-child {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape-13 div:first-child span {
+    width: 6px;
+    height: 2rem;
+    background: #1a4341;
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: 2rem;
+    border-radius: 4px;
+}
+
+
+.shape-13 div:nth-child(2) {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-left: -2.5rem;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+}
+
+.shape-13 div:nth-child(2) span {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: #1a4341;
+    border-radius: 50%;
+    border: 4px solid #f2ad43;
+}
+
+.shape-13 div:nth-child(3) {
+    width: 6rem;
+    height: 1rem;
+    background: #1a4341;
+    margin-left: -0.4rem;
+}
+
+.shape-13 div:nth-child(4) {
+    width: 2.2rem;
+    height: 1.6rem;
+    border-radius: 0.5rem;
+    margin-left: -0.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    padding: 0.4rem;
+}
+.shape-13 div:nth-child(4) span{
+    width: 100%;
+    height: 0.4rem;
+    background: #1a4341;
+    border-radius: 0.5rem;   
+}
