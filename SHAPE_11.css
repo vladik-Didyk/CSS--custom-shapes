@@ -1,0 +1,57 @@
+/* ----------------------- SHAPE 11 ----------------------- */
+
+.shape-11 {
+    background: #293462;
+}
+
+.shape-11 div:nth-child(2) {
+    background: #fff1c1;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0 0.8rem;
+}
+
+.shape-11 div:nth-child(2) span {
+    background: #fe5f55;
+    width: 1.6rem;
+    height: 0.25rem;
+    border-radius: 5px;
+}
+
+.shape-11 div:nth-child(2) span:nth-child(1) {
+    margin: 0.4rem 0;
+}
+
+.shape-11 div:nth-child(2) span:nth-child(3) {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    align-self: end;
+    margin-top: 0.7rem;
+    z-index: 1;
+}
+
+/* HANDELS */
+
+.shape-11 div:nth-child(1),
+.shape-11 div:nth-child(3){
+    width: 3.5rem;
+    height: 2.2rem;
+    border: 5px solid #fff1c1;
+    margin-top: -1.8rem;
+}
+
+.shape-11 div:nth-child(1){
+    border-radius: 1rem 0 0 1rem;
+    margin-right: -1rem;
+}
+
+.shape-11 div:nth-child(3){
+    border-radius: 0 1rem 1rem 0;
+    margin-left: -1rem;
+}
