@@ -1,0 +1,44 @@
+/* ----------------------- SHAPE 12 ----------------------- */
+
+.shape-14 {
+    background: #191919;
+}
+
+.shape-14 div {
+    width: 7rem;
+    height: 10rem;
+    background: #f2ad43;
+    border-radius: 4rem 4rem 1rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.shape-14 div span:nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: #fff58f;
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: calc(50% - 1rem);
+}
+
+.shape-14 div span:nth-child(2) {
+    width: 8rem;
+    height: 8rem;
+    background: #e08027;
+    position: absolute;
+    bottom: -3rem;
+    left : -3rem;
+    border-radius: 50%;
+}
+
+.shape-14 div span:nth-child(3) {
+    width: 10rem;
+    height: 10rem;
+    background: #824b20;
+    position: absolute;
+    bottom: -4.5rem;
+    right : -5rem;
+    border-radius: 50%;
+}
