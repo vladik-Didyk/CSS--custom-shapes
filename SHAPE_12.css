@@ -1,0 +1,44 @@
+/* ----------------------- SHAPE 12 ----------------------- */
+
+.shape-12 {
+    background: #6593cf;
+    flex-direction: column;
+}
+
+
+.shape-12 span:first-child {
+    width: 10rem;
+    height: 10rem;
+    border-left: 7rem solid transparent;
+    border-right: 7rem solid transparent;
+    border-bottom: 5rem solid #243d83;
+}
+
+.shape-12 span:last-child::before {
+    content: '';
+    width: 5rem;
+    height: 6px;
+    background: #eeb850;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 2.5rem);
+}
+
+.shape-12 span:last-child{
+    width: 10rem;
+    height: 8rem;
+    background: #243d83;
+    position: relative;
+}
+
+/* DOOR */
+
+.shape-12 span:last-child::after {
+    content: '';
+    width: 3rem;
+    height: 4rem;
+    background: #eeb850;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1.5rem);
+}
