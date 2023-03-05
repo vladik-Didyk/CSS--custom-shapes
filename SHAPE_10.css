@@ -1,0 +1,44 @@
+/* ----------------------- SHAPE 10 ----------------------- */
+
+.shape-10 {
+    background: #998235;
+    flex-direction: column;
+}
+
+.shape-10 div {
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+}
+
+.shape-10 div:first-child span {
+    background: white;
+    width: 50%;
+    height: 100%;
+    border-radius: 50% 50% 50% 0;
+}
+
+.shape-10 div:first-child span:first-child {
+    border-radius: 50% 50% 0 50%;
+}
+
+.shape-10 div:last-child {
+    background: #eff33c;
+    border-radius: 3rem;
+    gap: 0.4rem;
+    justify-content: start;
+    overflow: hidden;
+}
+
+.shape-10 div:last-child span{
+    background: black;
+    width: 1.8rem;
+}
+
+.shape-10 div:last-child span:last-child{
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    align-self: start;
+    margin: 0.8rem 1.3rem 0 0.5rem;
+}
