@@ -39,6 +39,7 @@ body > div{
     justify-content: center;
     align-items: center;
     background: #333;
+    min-height: 20rem;
 }
 
 
